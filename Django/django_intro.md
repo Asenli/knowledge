@@ -13,7 +13,9 @@
 
 ### Django简介：
 [Django官网地址](https://www.djangoproject.com/)
+
 [Django中文文档](https://docs.djangoproject.com/zh-hans/2.0/)
+
 Django发布于2005年7月，是当前Python世界里最有名且成熟的网络框架。 最初是被开发用于管理劳伦斯出版集团旗下的以新闻内容为主的网站的，即CMS(内容管理系统)软件。
 
 Django是一个用Python编写的开放源代码的Web应用框架，代码是开源的。此系统采用了MVC的框架模式, 也可以称为MTV模式
