@@ -5,5 +5,5 @@
 
 总结常用的git、基础知识、django、flask、mysql、mongodb知识点
 ### Git知识
- - [git的基本命令](git/git1.md)
+ - [git的基本命令](knowledge/Git/git1.md)
 
