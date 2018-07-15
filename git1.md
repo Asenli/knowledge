@@ -15,7 +15,7 @@ git clone 分支名仓库名地址
 
 2. 创建自己的分支
 ```
-git checkout -b wanghaifei
+git checkout -b fenzhi
 ```
 
 3. 查看当前修改文件的状态
@@ -35,7 +35,7 @@ git commit -m '注解'
 
 6. 文件到本地分支中
 ```
-git push origin wanghaifei
+git push origin fenzhi
 ```
 
 7. 合并添加上传文件和添加上传文件注解到本地分支的操作
@@ -45,7 +45,7 @@ git commit -am '注解'
 
 8. 下拉远程自己分支代码到本地自己分支
 ```
-git pull origin wanghaifei
+git pull origin fenzhi
 ```
 
 ***
@@ -58,7 +58,7 @@ git checkout dev
 ```
 当前dev分支在合并wanghaifei分支
 ```
-git merge wanghaifei
+git merge fenzhi
 ```
 提交dev分支合并的代码到远程dev分支上
 ```
@@ -80,12 +80,12 @@ git push origin v1.0.0.0
 
 11. 删除本地分支
 ```
-git branch -D wanghaifei
+git branch -D fenzhi
 ```
 
 12. 删除git远程分支
 ```
-git push origin --delete wanghaifei
+git push origin --delete fenzhi
 ```
 
 13. 删除本地tag
@@ -99,9 +99,9 @@ git push origin --delete tag v1.0.0.0
 ```
 
 
-15. 查看dev分支和wanghaifei分支的不同
+15. 查看dev分支和fenzhi分支的不同
 ```
-git diff dev wanghaifei
+git diff dev fenzhi
 ```
 
 ***
