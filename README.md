@@ -135,8 +135,6 @@
 
 
 
-
-
 ### 数据库
 
 - mysql
@@ -144,9 +142,10 @@
 - redis
 
 - mongodb
+
 - oracle
 
-
+  
 
 ##### Linux
 
@@ -154,4 +153,37 @@
 
 
 
+##### 工具
+
+- [创建数据库模型工具(PowerDesigner)](others/PowerDesigner.md)
+
+  
+
+##### 测试
+
+- [单元测试（Unit Test)](others/Unit_Test.md)
+
+- [压力测试 （stress testing)](others/stress_testing.md)
+
+  
+
+mysql性能优化配置
+
+[Mysql主从离](others/mysql_optimize.md)
+
+[Docker打包镜像](others/docker.md)
+
+部署多个项目
+
+[Celery 消息队列rabbitmq](others/celery_rabbitmq.md)
+
+
+
+
+
+
+
 ##### 黑科技
+
+
+
