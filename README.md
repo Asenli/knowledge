@@ -1,92 +1,157 @@
 
 
 # 知识库
-学习永不停止，python学习之路
+学习永不停止
 
-总结常用的git、基础知识、django、flask、mysql、mongodb知识点
+路没有尽头，只是看你在哪里停留
+
+
 ### Git知识
  - [git的基本命令](Git/git1.md)
 
-### 基础知识
+### 基本功
  - 字典、集合、元祖、列表
  - 循环
  - 迭代器和生成器
 
-
 ### Web开发 -- Django
-  - [使用指南](Django/django_intro.md)
 
+#####  1.Django项目环境与创建
 
- 1)会话 cookies session
+-  [使用指南](Django/django_intro.md)
+- virtualenv虚拟环境的搭建
+- 项目的创建与配置
 
-2)中间件
+#####  2.Django模型层
 
-3)Ajax
+-  模型设计
+-  模型关联设计
 
-4) restuful接口风格
+##### 3.Django视图层
 
-2.flask
+- 路由与反向解析
+- 模板
+- Django自带后台
 
-3.tornado
+##### 4.Django控制层
 
-	
+- 模型的CURD
+- 分页
 
-4.数据库
+##### 5.补充
 
-1)mysql
+- restful风格
+- 中间件的应用
+- 文件上传
+- cookies和session
+- 静态资源和Ajax请求
+- Django实例
+- Django部署
 
-2)redis
+### Flask轻便级开发
 
-3)mongodb
+1. ##### 最小体积Flask
 
+   - 安装和入门
 
+   - Flask配置
 
-5.Linux
+2. ##### Flask配置为MTV模式
 
-1）安装
+   - 使用Manage管理Flask项目
+   - 配置setting文件
+   - 将项目配置为MTV模式
 
-2）常用命令
+3. ##### Flask模型关联
 
-3）权限
+   - 一对一
+   - 一对多
+   - 多对多
 
+4. ##### Flask实例
 
+5. ##### Flask补充知识
 
-6.爬虫
+6. ##### Flask部署
 
-1)  http协议 tcp/ip协议
+   
 
-2）理解OSI七层模型 计算机基本原理
+### Tornado
 
-3）正则表达式爬取
-
-4）requets
-
-5）xpath 、Css selector
-
-6）pyspider
-
-7) scrapy
-
-8）selenium模拟工具
-
-9）多线程
-
-10)  协程
-
-11）分布式
-
-12）IP代理池 cookie池
-
-13）验证码
-
-14）数据清洗方法
-
-13)  反爬机制和对应策略
-
-14）高并发、高性能的分布式系统
+​    ......
 
 
 
+### 爬虫（Spiders）
+
+1. ##### 爬虫必知知识点
+
+   - 知识
+   -  http协议 tcp/ip协议
+
+2. ##### 数据采集
+
+   - 正则
+   - beautifulsoup4/requets
+   - 提取xpath/re
+   - 应用案例
+
+3. ##### 多线程
+
+   - 并发、并行、同步、异步线程、进程
+   - 线程锁
+   - 应用案例
+
+4. ##### 协程/数据持久化
+
+   - 协程
+   - 数据持久化
+   - 应用案例
+
+5. ##### 动态解析
+
+   - selenium自动化测试框架
+   - 应用案例
+
+6. ##### 验证
+
+   - 模拟登录github
+   - 验证码处理
+
+7. ##### Scrapy框架
+
+   - 框架介绍
+   - 案例：爬取豆瓣信息
+   - 案例：爬取链家信息
+   - 案例：爬取微博信息
+
+8. ##### 高并发、高性能的分布式系统
+
+9. ##### IP代理池 cookie池
+
+10. ##### 反爬机制和对应策略
+
+11. ##### Pyspider
 
 
-黑科技
+
+
+
+### 数据库
+
+- mysql
+
+- redis
+
+- mongodb
+- oracle
+
+
+
+##### Linux
+
+- 常用命令
+
+
+
+##### 黑科技
